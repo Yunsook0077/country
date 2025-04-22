@@ -71,10 +71,10 @@ country_data = {
 }
 
 # Streamlit 앱 제목
-st.title("🎉국가 정보 조회기")
+st.title("🌏국가 정보 조회기")
 
 # 국가 선택 옵션
-country_selected = st.selectbox("🌏국가를 선택하세요:", list(country_data.keys()))
+country_selected = st.selectbox("🎉국가를 선택하세요:", list(country_data.keys()))
 
 # 선택된 국가 정보 표시
 if country_selected:
